@@ -1,1 +1,2 @@
-# neural-decoding-ml
+# Neural Decoding ML
+This Jupyter notebook utilizes a basic machine learning classifier to decode experimental conditions, using neural firing rates as features. I used logistic regression because it is interpretable and suitable for low-dimensional neural features. A train-test split is used to assess generalization performance. The presence of information about the experimental condition in neural activity is indicated by a decoding accuracy above 0.5, or 50%. In this case, the model is not guessing randomly. 
